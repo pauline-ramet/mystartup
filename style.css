@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
+
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F4F7F6;
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 60px auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.testimonial {
+  display: flex;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.testimonial-text {
+  margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .cards, .d-flex-between {
+    flex-direction: column;
+  }
+  .container {
+    width: 90%;
+  }
+}

@@ -1,0 +1,22 @@
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  flex: 1;
+}
+
+.d-flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-content {
+  flex: 0 0 60%;
+}
